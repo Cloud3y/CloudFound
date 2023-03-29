@@ -19,10 +19,7 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Install dependencies
-      run:  make 
-    
-    - name: Lint with PyLint
+   - name: Lint with PyLint
       run: |
         make test
 
